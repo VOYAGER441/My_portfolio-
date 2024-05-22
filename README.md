@@ -16,8 +16,8 @@
 
 To deploy this project run
 
-```Website
-  visited: https://mainakbanduri.netlify.app
+```Website visite:
+   https://mainakbanduri.netlify.app
 ```
 
 
