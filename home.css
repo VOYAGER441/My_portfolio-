@@ -222,14 +222,14 @@ section p{
         font-size: 3rem;
     }
 }
-@media only screen and (max-width:360px){
+@media only screen and (max-width:386px){
     body{
         background-image: url('img/mobile.jpg');
-        width: 360px;
+        width: 386px;
         height: 500px;
     }
     .navbar{
-        width: 360px;
+        width: 386px;
         gap:0px;
         
     }
@@ -240,7 +240,7 @@ section p{
     .text{
         font-size: 2rem;
         margin-top: 100px;
-        margin-left: 15px;
+        margin-left: 5px;
     }
     .ab a{
         padding-left: 0;
@@ -256,10 +256,9 @@ section p{
         width: 100%;
         background-image: url("img/pro.jpg");
         background-size: cover;
-        width: 360px;
+        width: 386px;
         height: auto;
         background-position: center;
-       
     }
     .abo p{
         width: 90%;
