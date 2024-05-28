@@ -108,7 +108,7 @@ p{
 .preg span{
     text-transform: uppercase;
     color: black;
-    background-color: rgba(205, 205, 136, 0.975);
+    background-color: hsla(60, 100%, 50%, 0.975);
 }
 
 .pro_img{
@@ -118,11 +118,13 @@ p{
     width: 300px;
     height: 350px;
     border-radius: 15px;
-    outline: thick double whitesmoke;
+    outline: 5px ridge rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     margin-right: 15px;
 }
 .abo h1{
-    color: whitesmoke;
+    color: hsl(0, 0%, 96%);
     margin-left: 50px;
     padding-top: 15px;
     font-size: 90px;
