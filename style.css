@@ -4,7 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cairo', sans-serif;}
+  font-family: 'Cairo', sans-serif;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -13,21 +15,24 @@ body {
   overflow: hidden;
   background: white;
 }
-.logo{
-    background-image:url("img/mb.png");
-    background-size: cover;
-    height: 150px;
-    width: 200px;
-    margin-left:0px; 
+
+.logo {
+  background-image: url("img/mb.png");
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+  margin-left: 0px;
 }
 
 ul {
   position: relative;
 }
+
 ul li {
   list-style: none;
   text-align: center;
 }
+
 ul li a {
   color: #333;
   text-decoration: none;
@@ -37,13 +42,16 @@ ul li a {
   font-weight: 700;
   transition: 0.5s;
 }
+
 ul:hover li a {
   color: #0002;
 }
+
 ul li:hover a {
   color: #000;
   background: transparent;
 }
+
 ul li a:before {
   content: "";
   position: absolute;
@@ -55,7 +63,7 @@ ul li a:before {
   align-items: center;
   font-size: 5em;
   color: rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
+  /* border-radius: 50%; */
   z-index: -1;
   opacity: 0;
   font-weight: 900;
@@ -63,6 +71,7 @@ ul li a:before {
   letter-spacing: 500px;
   transition: letter-spacing 0.5s, left 0.5s;
 }
+
 ul li a:hover:before {
   content: attr(data-text);
   opacity: 1;
@@ -71,29 +80,35 @@ ul li a:hover:before {
   width: 3000px;
   height: 3000px;
 }
+
 ul li:nth-child(6n + 1) a:before {
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(#ca35b6, #9198e5);
 }
+
 ul li:nth-child(6n + 2) a:before {
   background: linear-gradient(#287271, #9198e5);
 }
+
 ul li:nth-child(6n + 3) a:before {
   background: linear-gradient(#2a9d8f, #9198e5);
 }
+
 ul li:nth-child(6n + 4) a:before {
   background: linear-gradient(#e9c46a, #9198e5);
 }
+
 ul li:nth-child(6n + 5) a:before {
   background: linear-gradient(#f4a261, #9198e5);
 }
+
 ul li:nth-child(6n + 6) a:before {
   background: linear-gradient(#e76f51, #9198e5);
 }
+
 ul li:nth-child(6n + 7) a:before {
-    background: linear-gradient(#96e6a1, #9198e5);
+  background: linear-gradient(#96e6a1, #9198e5);
 }
+
 ul li:nth-child(6n + 8) a:before {
-    background: linear-gradient(#b490ca, #9198e5);
-  }
-  
-  
+  background: linear-gradient(#b490ca, #9198e5);
+}
